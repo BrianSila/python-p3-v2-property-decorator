@@ -26,7 +26,6 @@ class Dog:
         else:
             raise ValueError("Name must be string between 1 and 25 characters.")
 
-
     @property
     def breed(self):
         return self._breed
